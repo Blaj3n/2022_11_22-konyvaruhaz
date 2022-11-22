@@ -1,0 +1,56 @@
+index.html-t tölti be alapértelmezetten a böngésző
+	main div létrehozása
+	a lényegi részt a szkript fogja legenerálni a main.js-sel, az  aprogram belépési pontja
+
+main.js
+	példányosítjuk a Controllert
+
+Controller
+	A controller osztály-nak az a dolga, hogy a modelt példányosítja és a view-t is
+
+Model
+	Létrejön, teljesen üresen. A konstruktora üres. Saját magának van egy filmek privát adattagja, ami alapértelmezetten üres
+	Megvannak a saját függvényei, az első amit használ az adatok beolvasásához. Az egyik adattagja a végpont, a másik tagfüggvénye egy callback függvény.
+	adatBe egy fetch kéréssel visszakapja az adatokat, amit aszinkron módon tudunk meghívni, amit megadunk neki.
+	Mivel egy tömbben kapjuk vissza azt paraméterként megadtuk a callback függvénynek.
+
+A Controllerbe beléptünk és megérkeztek az adataink, példányosít egy új View-t.
+
+
+View
+	A konstruktor paraméterei: tömb és a szülőelem(egy html tag).
+	Beállítjuk az adattagokat, amit utána hozzáad a HTML taghez
+
+Kattintás esemény kezelő:
+	átadja a controllernek azt az elemét amire megtörtént az esemény
+
+JatekController:
+	feliratkozunk a saját eseményünkre
+
+
+
+https://etananyag.szamalk-szalezi.hu/course/view.php?id=1014&section=0#tabs-tree-start
+
+Docker fájl - react, JSON, laravel is letöltése, majd kicsomagolása --> laravel_nodejs_react
+a mappában 3 dolog legyen: web mappa, docker-compose, Dockerfile
+web->html mappában tároljunk mindent
+
+
+laravel_nodejs_react mappaában, powershell:
+	docker-compose build
+	docker-compose up -d
+	docker ps
+	docker exec -it container_szám /bin/bash
+
+React telepítése és indítása:
+	npx create-react-app appneve
+	cd appneve
+	npm run start&
+
+
+
+
+
+
+
+

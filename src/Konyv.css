@@ -1,0 +1,14 @@
+div{
+    min-height: 10vh;
+    background-color: lightgray;
+    color: black;
+}
+h3{
+    min-height: 5vh;
+    background-color: grey;
+    color: white;
+}
+p{
+    min-height: 5vh;
+    color: white;
+}

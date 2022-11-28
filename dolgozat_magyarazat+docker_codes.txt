@@ -36,16 +36,10 @@ a mappában 3 dolog legyen: web mappa, docker-compose, Dockerfile
 web->html mappában tároljunk mindent
 
 
-laravel_nodejs_react mappaában, powershell:
+laravel_nodejs_react mappában, powershell:
 	docker-compose build
 	docker-compose up -d
-	docker ps
-	docker exec -it container_szám /bin/bash
 
-React telepítése és indítása:
-	npx create-react-app appneve
-	cd appneve
-	npm run start&
 
 
 
